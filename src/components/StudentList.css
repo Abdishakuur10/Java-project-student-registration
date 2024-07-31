@@ -1,0 +1,76 @@
+/* src/components/StudentList.css */
+
+.student-list {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+  }
+  
+  .student-list__title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .student-list__message {
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+  }
+  
+  .student-list__table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .student-list__thead {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .student-list__th,
+  .student-list__cell {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .student-list__th {
+    font-weight: bold;
+  }
+  
+  .student-list__tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .student-list__tbody tr:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .student-list__row {
+    transition: background-color 0.3s ease;
+  }
+  
+  .student-list__cell {
+    vertical-align: middle;
+  }
+  
+  .student-list__delete-btn {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #dc3545;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .student-list__delete-btn:hover {
+    background-color: #c82333;
+  }
+  

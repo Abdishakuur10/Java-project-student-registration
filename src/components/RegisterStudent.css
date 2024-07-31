@@ -1,0 +1,55 @@
+/* src/components/RegisterStudent.css */
+
+/* Add a gradient background to the form container */
+.register-student {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-student__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff; /* Adjust text color for better contrast */
+  }
+  
+  .register-student__form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register-student__label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #fff; /* Adjust text color for better contrast */
+  }
+  
+  .register-student__input {
+    margin-bottom: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #ffffff; /* Ensure input fields are readable */
+  }
+  
+  .register-student__button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-student__button:hover {
+    background-color: #0056b3;
+  }
+  
